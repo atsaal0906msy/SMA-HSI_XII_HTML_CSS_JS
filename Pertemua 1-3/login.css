@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "poppins" sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  min-height: 100vh;
+  background-image: url(foto/page.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.login-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 30px;
+  width: 440px;
+  height: 480px;
+}
+
+.login-header {
+  text-align: center;
+  margin: 40px 0 40px 0;
+}
+.login-header header {
+  color: #fff;
+  font-size: 40px;
+  font-width: 600;
+}
+.login-box .input-field {
+  width: 100%;
+  height: 40px;
+  font-size: 16px;
+  padding: 0 25px;
+  margin-bottom: 25px;
+  border: none;
+  border-radius: 35px;
+  box-shadow: 0 5px 10px rgba(91, 29, 236, 0.05);
+  outline: none;
+  transition: 0.3s;
+}
+
+::placeholder {
+  font-weight: 500;
+  color: #e0e1dd;
+}
+
+.input-field: focus {
+  transform: scale(120%);
+}
+
+.forgot {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 35px;
+}
+section {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  color: #fff;
+}
+#check {
+  margin-right: 10px;
+}
+a {
+  text-decoration: none;
+}
+a::hover {
+  text-decoration: underline;
+  color: #fff;
+}
+section a {
+  color: #fff;
+}
+.input-submit {
+  position: relative;
+}
+.submit-btn {
+  width: 100%;
+  height: 60px;
+  background: #5063f2;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.input-submit label {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  color: #fff;
+  -webkitanimation: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+}
+.submit-btn::hover {
+  background: #190ee3;
+  transform: scale(1.05, 1);
+}
+.sign-up-link {
+  text-align: center;
+  font-size: 20px;
+  margin-top: 20px;
+}
+.sign-up-link a {
+  color: #fff;
+  font-weight: 600;
+}
+.sign-up-link p {
+  color: #fff;
+}
